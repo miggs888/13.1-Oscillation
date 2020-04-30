@@ -6,6 +6,7 @@ var slider2;
 function setup() {
     createCanvas(500, 500);
     angleMode(DEGREES)
+    //sliders to have user change side and look variables
     slider = createSlider(1, 15, 0)
     slider2 = createSlider(1, 15, 0)
 
